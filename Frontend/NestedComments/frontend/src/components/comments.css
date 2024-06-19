@@ -1,0 +1,73 @@
+.inputContainer {
+  display: flex;
+  justify-content: center;
+  margin-left: 5rem;
+  gap: 5px;
+  align-items: baseline;
+}
+
+.commentContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 15px;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 6px;
+  background-color: aliceblue;
+  margin: 0.5rem;
+}
+
+.commentContainer:hover {
+  background-color: rgba(211, 211, 211, 0.7490196078);
+}
+
+.input-box {
+  width: 100%;
+  border: 1px solid #000;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.comment-btn {
+  padding: 15px 10px;
+  width: 50%;
+  background-color: blue;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.comment-btn:hover {
+  background-color: aliceblue;
+  color: #000;
+}
+
+.btns {
+  display: flex;
+  gap: 5px;
+}
+
+.reply {
+  font-size: small;
+  padding: 3px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.comment-box {
+  width: 50%;
+  border: 1px solid #000;
+  padding: 8px;
+  border-radius: 5px;
+  margin: 0.5rem;
+}
+
+.reply-container {
+  display: flex;
+  gap: 5px;
+  padding: 3px;
+  margin: 0.5rem;
+  background-color: aliceblue;
+}/*# sourceMappingURL=comments.css.map */
